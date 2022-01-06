@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<htlm>
+
+    <head>
+        <title>Meilleuirs Delices</title>
+        <meta charset="utf-8">
+        <style>
+            .header {
+                background-color: rgb(133, 196, 221);
+                padding: 20px;
+            }
+
+            .body {
+                background-color: rgb(229, 235, 231);
+                padding: 100px;
+            }
+
+            .footer {
+                background-color: rgb(21, 66, 124);
+                padding: 10px;
+            }
+
+            .img {
+                max-width: 150px;
+                min-width: 1500px;
+                max-height: 150px;
+                min-height: 150px;
+            }
+
+            .table {
+                width: 100%;
+            }
+
+            .grid-container {
+                display : grid;
+                grid-template-columns: auto auto auto;
+                
+            }
+
+            .grid-item {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 align="center">La joie au gout special</h1>
+            <h2 align="center">Faites vous, vos familles et amis plaisir avec les meilleurs Delices!</h2>
+            <table style="width:30%">
+                <tr>
+                    <th align="center"><a href="#anniv">Anniversaires?</a></th>
+                    <th align="center"> <a href="#grigno">A grignoter?</a></th>
+
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="body">
+            <div id="anniv" class="grid-container">
+                <!--display:grid-->
+                <div class="grid-item">
+                    <h2>Gateau Banane Chocolate</h2>
+                    <div style="display:flex;flex-direction: row; ">
+                        <div>
+                            <img src="Vanille.jpeg" alt="Gateau d'anniversaire!" width=150>
+                        </div>
+                        <div style="padding-left: 5px">
+                            <p> Gateau
+                                banane avec de la creme chocolate a la canelle.<br>
+                                Prix: 10.000Fcfa<br>
+                                <a href="#banane">Personaliser votre choix.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h2>Gateau Chocolat a la Menthe</h2>
+                    <div style="display:flex;flex-direction: row;">
+                        <div>
+                            <p><img src="ChocolatCreme.jpeg" alt="Gateau d'anniversaire!" width=150>
+                        </div>
+                        <div>
+                            Gateau eponge avec de la
+                            creme chocolate au lait accompagne de la creme a la
+                            menthe.<br>
+                            Prix: 10.000Fcfa<br>
+                            <a href="">Personaliser votre choix.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h2>Cake nature a la creme souple</h2>
+                    <div style="display:flex;flex-direction: row; ">
+                        <div>
+                            <img src="Murielle.jpeg" alt="Cake nature!" width=150>
+                        </div>
+                        <div>
+                            <p>
+                                C'est un
+                                gâteau
+                                de couleur jaunâtre, il est fait selon le goût de votre choix. Celui ci est de nature
+                                vanille.<br>
+                                Prix: 5000Fcfa<br>
+                                <a href="">Personaliser Votre Choix</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <h2>Cake a la Courge</h2>
+                    <div style="display:flex;flex-direction: row;">
+                        <div>
+                            <img src="Courge.jpeg" alt="Cake a la Courge" width=150>
+                        </div>
+                        <div>
+                            <p>La
+                                particularité de ce Gateau est unique. Il n'est pas trop sucree, au contraire c'est le
+                                bon
+                                gout qui domine.<br>
+                                Prix: 3.500Fcfa la douzaine<br>
+                                <a href="">Personaliser Votre Choix</a></b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <h2>Gateau Chocolat a la creme souple</h2>
+                    <div style="display:flex;flex-direction: row;">
+                        <div>
+                            <img src="chocolatSouple.jpeg" alt="Gateau Chocolat a la Creme Souple!" width=150>
+                        </div>
+                        <div>
+                            <p><b>
+                                    Ce gateau est le fruit du vrai cocoa,
+                                    additionne de la douce creme au lait.</br>
+                                    Prix: 2.000Fcfa la douzaine<br>
+                                    <a href="">Gateau Chocolat a la creme souple</a></b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h2>Gateau Chocolat a la creme chocolate</h2>
+                    <div style="display:flex;flex-direction: row;">
+                        <div>
+                            <img src="Vicky.jpg" align="left" alt="Gateau Chocolat a la Creme Chocolate" width=150>
+                        </div>
+                        <div>
+                            <p>Ce gateau est leger accompagne d'un gout special en addition d'une exceptionnel
+                                creme au chocolat.<br>
+                                Prix: 15.000Fcfa<br>
+                                <a href="">Personaliser Votre Choix</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="grigno" class="grid-container">
+                <div class="grid-item">
+                    <h2>Cookies aux pepites du chocolat</h2>
+                    <div style="display:flex;flex-direction: row; ">
+                        <div>
+                            <img src="CookiesAuChocolat.jpeg" alt="Cookies au Chocolat" width=150>
+                        </div>
+                        <div>
+                            <p>Cookies a la saveur du beurre et lait, combles de pepites du chocolat.<br>
+                                Prix: 3500Fcfa la douzaine<br>
+                                <a href="">Personaliser Votre Choix</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h2>Meat Pie</h2>
+                    <div style="display:flex;flex-direction: row; ">
+                        <div>
+                            <img src="MeatPie.jpeg" alt="Meat Pie" width=150>
+                        </div>
+                        <div>
+                            <p>Pate sablee suivit
+                                de viande hache avec de tres bon epices.<br>
+                                Prix: 4000Fcfa la douzaine<br>
+                                <a href="">Personaliser Votre Choix</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h2>Cup Cakes au Chocolat</h2>
+                    <div style="display:flex;flex-direction: row; ">
+                        <div>
+                            <img src="CupCakeAuChocolat.jpeg" width=150>
+                        </div>
+                        <div>
+                            <p>Muffins aux chocolats
+                                type américain incorpore d'une saveur chocolaté et exceptionnelle.<br>
+                                Prix: 3000Fcfa la douzaine<br>
+                                <a href="">Personaliser Votre Choix</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h2>Cookies a la Canelle</h2>
+                    <div style="display:flex;flex-direction: row; ">
+                        <div>
+                            <img src="AlaCanelle.jpeg" width=150>
+                        </div>
+                        <div>
+                            <p>Ces cookies une particularité
+                                d'un goût au lait et à la cannelle.<br>
+                                Prix: 2000Fcfa la douzaine<br>
+                                <a href="">Personaliser Votre Choix</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h2>Muffin au Citron</h2>
+                    <div style="display:flex;flex-direction: row;">
+                        <div>
+                            <p><img src="CakeAuCitron1.jpeg" align="left" width=150>
+                        </div>
+                        <div>
+                            <p>Ces gateau sont a là la
+                                saveur de la limonade et doux.<br>
+                                Prix: 3000Fcfa la douzaine<br>
+                                <a href="">Personaliser Votre Choix</a></b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h2>Cookies Mixtes</h2>
+                    <div style="display:flex;flex-direction: row; ">
+                        <div>
+                            <img src="4mixtes.jpeg" align="left" width=150>
+                        </div>
+                        <div>
+                            <p>Cookies sablé à la cannelle ; Au
+                                pépite de chocolat et quaker; Au coco épuisé au chocolat. Ces Cookies Mixtes sont dotés
+                                d'une douceur exceptionnelle et d'une saveur unique, chacun en son genre.<br>
+                                Prix: 2000Fcfa la douzaine.<br>
+                                <a href="">Personaliser Votre Choix</a></b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 align="center">
+                    Votre Satisfaction, Notre Priorite
+                </h1>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="">
+                Copy right
+            </a>
+        </div>
+    </body>
+
+    </html>
